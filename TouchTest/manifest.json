@@ -1,0 +1,15 @@
+{
+    "architecture": "all",
+    "description": "description of TouchTest",
+    "framework": "ubuntu-sdk-14.10-dev2",
+    "hooks": {
+        "app": {
+            "apparmor": "app.apparmor",
+            "desktop": "app.desktop"
+        }
+    },
+    "maintainer": "maintainerName",
+    "name": "com.ubuntu.developer.username.touchtest",
+    "title": "TouchTest",
+    "version": "0.1"
+}
