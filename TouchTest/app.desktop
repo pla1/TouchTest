@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=app
+Name=Touch Test
 Exec=ubuntu-html5-app-launcher $@ --www=www --inspector
 Icon=TouchTest.png
 Terminal=false
