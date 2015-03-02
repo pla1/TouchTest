@@ -13,12 +13,16 @@
 <body>
 <button onclick="increment()">Push me</button>
 <p id="output"></p>
+<div id="userAgent"></div>
 
 <script type="text/javascript">
   var i = 0;
-  var element = document.getElementById("output");
+  var userAgentElement = document.getElementById("userAgent");
+  userAgentElement.innerHTML = navigator.userAgent;
+  var outputElement = document.getElementById("output");
+  outputElement.innerHTML = i;
   function increment() {
-    element.innerHTML = ++i;
+    outputElement.innerHTML = ++i;
   }
 </script>
 </body>
