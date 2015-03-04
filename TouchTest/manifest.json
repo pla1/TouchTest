@@ -4,7 +4,7 @@
     "framework": "ubuntu-sdk-14.10-html",
     "hooks": {
         "app": {
-            "apparmor": "app.apparmor",
+            "apparmor": "app.json",
             "desktop": "app.desktop"
         }
     },
