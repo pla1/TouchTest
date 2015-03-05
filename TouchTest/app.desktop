@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Touch Test
-Exec=webapp-container ./www/index.html
+Exec=webapp-container --webappUrlPatterns=http://www.google.com/* http://www.google.com
 Icon=TouchTest.png
 Terminal=false
 Type=Application
