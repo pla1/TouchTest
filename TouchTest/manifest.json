@@ -4,8 +4,8 @@
     "framework": "ubuntu-sdk-14.10-html",
     "hooks": {
         "app": {
-            "apparmor": "app.json",
-            "desktop": "app.desktop"
+            "apparmor": "TouchTest.apparmor",
+            "desktop": "TouchTest.desktop"
         }
     },
     "maintainer": "Patrick L Archibald (PLA) <patrick.archibald@gmail.com>",
