@@ -1,5 +1,4 @@
 {
-    "architecture": "all",
     "description": "Test Ubuntu Touch test responses",
     "framework": "ubuntu-sdk-14.10-html",
     "hooks": {
